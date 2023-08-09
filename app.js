@@ -21,3 +21,4 @@ app.get ('/register', (req, res) => {
     res.sendFile (path.resolve ('./views/register.html'));
 })
 
+module.exports = app
